@@ -1,0 +1,16 @@
+**Site Tatiana Modas**
+Nav bar com elementos como: Início, Produtos, Sobre
+
+
+Dentro de produtos tem que ter sessões como: Moda Praia, Vestuário, Cosméticos,Vestidos Conjuntos e Acessórios
+Faça Cards estilizados com fotos de produtos para eu colocar meus produtos nela
+
+E em sobre, deixe um espaço de uma imagem redonda, para a foto da Dona da Empresa Tatiana Modas, que é a Geisa Tatiane Meireles, ja está atuando no mercado de vendas a mais de 15 anos.
+Começou vendendo calçados Para os amigos de porta em porta, depois foi para a feira expandir o negócio continuando na venda de calçados, e dps foi para a loja de bairro. 
+se esforçando pra se qualificar na area, fazendo cursos de Empreendedorismo,Moda,Presificação, entre outros. 
+
+Não se esqueça de q é um site de vendas, entao faça bastante chamadas para ação, sempre tendo um Botão COMPRAR, etc. 
+
+--Paleta de cores: gradiente linear de 90°: 
+Texto Tatiana Modas: Fonte Brittany cor preta, 
+Textos normais: cor branca

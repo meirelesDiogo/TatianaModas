@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+     font-family: 'Montserrat', sans-serif;
+     box-sizing: border-box;
+}
+
+.tudo{
+    background: linear-gradient(90deg,#004aad,#cb6ce6);
+
+}
+.apresentacao{
+    text-align: center;
+    color: white;
+    padding: 80px;    
+}
+.apresentacao h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+#titulo{
+    font-family: 'Pacifico', cursive;
+    font-size:5rem;
+    font-weight: 400;
+    color: black;
+
+}
+.navBar{
+   display: flex;
+   
+   text-align: center;
+    justify-content: center;
+}
+.navBar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 20px;
+    font-weight: 600;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    
+}
+.novidades{
+    background-color: white;
+    color: black;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.novidades h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
