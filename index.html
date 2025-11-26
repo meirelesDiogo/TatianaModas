@@ -1,126 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tatiana Modas</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!--Navbar-->
-    <div class="navBar">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Tatiana Modas</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Início</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Buscar
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <!--Fim Navbar-->
-    <div class="tudo">
-      <div class="apresentacao">
-        <h1>Bem-vindo à</h1>
-        <h1 id="titulo">Tatiana Modas!</h1>
-        <p>Sua loja de moda favorita.</p>
-        <br /><br /><br /><br /><br />
 
-        <div class="novidades">
-          <h2>Novidades</h2>
-          <p>Confira nossos lançamentos e promoções exclusivas!</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tatiana Modas</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="navBar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tatiana Modas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Fim Navbar-->
+  <div class="tudo">
+    <div class="apresentacao">
+      <h1>Bem-vindo à</h1>
+      <h1 id="titulo">Tatiana Modas!</h1>
+      <p>Sua loja de moda favorita.</p>
+      <br /><br /><br /><br /><br />
+
+      <div class="novidades">
+        <h2>Novidades</h2>
+        <p>Confira nossos lançamentos e promoções exclusivas!</p>
+      </div>
+    </div>
+
+    <div class="container-cards">
+
+      <div class="card" style="width: 18rem">
+        <img src="imagens/shortAlfaiataria.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Short Alfaiataria</h5>
+          <p class="card-text">Short Que não marca o Corpo e tem Ótimo Caimento</p>
+          <a data-bs-toggle="modal" data-bs-target="#ModalAlfaiataria" class="btn btn-primary">Saiba Mais</a>
         </div>
       </div>
 
+      <div class="card" style="width: 18rem">
+        <img src="imagens/conjuntoVerãoLinho.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Conjunto Verão de Linho</h5>
+          <p class="card-text">Para você usar no verão em várias ocasiões com Estilo</p>
+          <a data-bs-toggle="modal" data-bs-target="#ModalVeraoLinho" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="imagens/macaquinhoLinho.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Macaquinho de Linho</h5>
+          <p class="card-text">Moda Versátil e Estilo Juntos em Uma Única peça</p>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalMacaquinho">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="imagens/biquini.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Biquini</h5>
+          <p class="card-text">Varios Modelos Para todos os gostos</p>
+          <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBiquini">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="novidades">
+      <h2>Lançamento e Ofertas</h2>
+      <p>Confira nossas promoções exclusivas!</p>
+    </div>
+    <br><br>
+
+<!--Cards de oferta-->
     <div class="container-cards">
-  
-  <div class="card" style="width: 18rem">
-    <img src="..." class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Short Alfaiataria</h5>
-      <p class="card-text">Short Que não marca o Corpo e tem Ótimo Caimento</p>
-      <a href="#" class="btn btn-primary">Saiba Mais</a>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vestido</h5>
+          <p class="card-text">Promoções de até 25% de Desconto</p>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Saia</h5>
+          <p class="card-text">Ofertas a partir de 5% de desconto</p>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shorts</h5>
+          <p class="card-text">Ofertas até 20% de Desconto</p>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Blusas e Camisas</h5>
+          <p class="card-text">Ofertas de até 15% desconto</p>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="card" style="width: 18rem">
-    <img src="..." class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Conjunto Verão de Linho</h5>
-      <p class="card-text">Para você usar no verão em várias ocasiões com Estilo</p>
-      <a href="#" class="btn btn-primary">Saiba Mais</a>
+    <br><br><br><br><br><br>
+    <footer>
+      <p>&copy Tatiana Modas. Todos os Direitos Reservados</p>
+    </footer>
+    <!--Modal do Short Alfaiataria-->
+    <div class="modal" id="ModalAlfaiataria" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="card" style="width: 18rem">
-    <img src="..." class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Macaquinho de Linho</h5>
-      <p class="card-text">Moda Versátil e Estilo Juntos em Uma Única peça</p>
-      <a href="#" class="btn btn-primary">Saiba Mais</a>
+    <!--Modal do Conjunto Verão de Linho-->
+    <div class="modal" id="ModalVeraoLinho" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card" style="width: 18rem">
-    <img src="..." class="card-img-top" alt="..." />
-    <div class="card-body">
-      <h5 class="card-title">Biquini</h5>
-      <p class="card-text">Varios Modelos Para todos os gostos</p>
-      <a href="#" class="btn btn-primary">Saiba Mais</a>
+
+
+    <!--Modal Macaquinho de Linho-->
+    <div class="modal" id="ModalMacaquinho" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+    <!--Modal Biquini-->
+    <div class="modal" id="ModalBiquini" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
 
-</div>
-
-
-
-<br><br><br><br><br><br>
-<footer>
-  <p>&copy Tatiana Modas. Todos os Direitos Reservados</p>
-</footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
