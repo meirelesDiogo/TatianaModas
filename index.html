@@ -15,7 +15,7 @@
   <div class="navBar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Tatiana Modas</a>
+        <a class="navbar-brand" href="index.html">Tatiana Modas</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Início</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Produtos</a>
+              <a class="nav-link" href="html/produtos.html">Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="html/sobre.html">Sobre</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -108,7 +108,7 @@
         <div class="card-body">
           <h5 class="card-title">Vestido</h5>
           <p class="card-text">Promoções de até 25% de Desconto</p>
-          <a href="#" class="btn btn-primary">Saiba Mais</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalVestido">Saiba Mais</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -116,7 +116,7 @@
         <div class="card-body">
           <h5 class="card-title">Saia</h5>
           <p class="card-text">Ofertas a partir de 5% de desconto</p>
-          <a href="#" class="btn btn-primary">Saiba Mais</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalSaia">Saiba Mais</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -124,7 +124,7 @@
         <div class="card-body">
           <h5 class="card-title">Shorts</h5>
           <p class="card-text">Ofertas até 20% de Desconto</p>
-          <a href="#" class="btn btn-primary">Saiba Mais</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalShorts">Saiba Mais</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
@@ -132,7 +132,7 @@
         <div class="card-body">
           <h5 class="card-title">Blusas e Camisas</h5>
           <p class="card-text">Ofertas de até 15% desconto</p>
-          <a href="#" class="btn btn-primary">Saiba Mais</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBlusas">Saiba Mais</a>
         </div>
       </div>
     </div>
@@ -143,17 +143,28 @@
     </footer>
     <!--Modal do Short Alfaiataria-->
     <div class="modal" id="ModalAlfaiataria" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Short Alfaiataria</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="imagens/shortAlfaiataria.png" alt="Short Alfaiataria" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Short que não marca o corpo e tem ótimo caimento. Perfeito para o dia a dia, com qualidade premium e tecido confortável.</p>
+                <p><strong>Preço:</strong> R$ 89,90</p>
+                <p><strong>Tamanhos disponíveis:</strong> P, M, G, GG</p>
+                <p><strong>Cores:</strong> Preto, Bege, Branco, Azul Marinho</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer"><a href="html/produtos.html">
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
             </a>
           </div>
         </div>
@@ -162,17 +173,29 @@
 
     <!--Modal do Conjunto Verão de Linho-->
     <div class="modal" id="ModalVeraoLinho" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Conjunto Verão de Linho</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="imagens/conjuntoVerãoLinho.png" alt="Conjunto Verão de Linho" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Para você usar no verão em várias ocasiões com estilo. Conjunto de linho 100% natural, leve e respirável.</p>
+                <p><strong>Preço:</strong> R$ 149,90</p>
+                <p><strong>Material:</strong> Linho 100%</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+                <p><strong>Cores:</strong> Branco, Bege, Azul Bebê, Rosa Pastel</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer"><a href="html/produtos.html">
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
             </a>
           </div>
         </div>
@@ -182,17 +205,29 @@
 
     <!--Modal Macaquinho de Linho-->
     <div class="modal" id="ModalMacaquinho" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Macaquinho de Linho</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="imagens/macaquinhoLinho.png" alt="Macaquinho de Linho" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Moda versátil e estilo juntos em uma única peça. Macaquinho de linho com corte moderno e confortável para o dia a dia.</p>
+                <p><strong>Preço:</strong> R$ 159,90</p>
+                <p><strong>Material:</strong> Linho 100%</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+                <p><strong>Cores:</strong> Cru, Verde Militar, Azul Marinho, Preto</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer"><a href="html/produtos.html">
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
             </a>
           </div>
         </div>
@@ -202,17 +237,157 @@
 
     <!--Modal Biquini-->
     <div class="modal" id="ModalBiquini" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Biquini</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="imagens/biquini.png" alt="Biquini" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Vários modelos para todos os gostos. Biquinis confortáveis com design moderno e tecnologia de secagem rápida.</p>
+                <p><strong>Preço:</strong> A partir de R$ 79,90</p>
+                <p><strong>Material:</strong> Poliamida + Elastano</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+                <p><strong>Modelos:</strong> Básico, Estampado, Com Amarração, Bandeau</p>
+              </div>
+            </div>
           </div>
           <div class="modal-footer"><a href="html/produtos.html">
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Vestido Oferta-->
+    <div class="modal" id="ModalVestido" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Vestidos em Promoção</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="..." alt="Vestido" class="img-fluid" style="background-color: #f0f0f0; height: 300px; display: flex; align-items: center; justify-content: center; color: #999;">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Coleção de vestidos variados para diferentes ocasiões. Peças elegantes com cortes modernos e confortáveis.</p>
+                <p><strong>Desconto:</strong> Até 25% OFF</p>
+                <p><strong>Preço de:</strong> R$ 199,90</p>
+                <p><strong>Preço por:</strong> A partir de R$ 149,90</p>
+                <p><strong>Estilos disponíveis:</strong> Casual, Social, Praia</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Saia Oferta-->
+    <div class="modal" id="ModalSaia" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Saias em Oferta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="..." alt="Saia" class="img-fluid" style="background-color: #f0f0f0; height: 300px; display: flex; align-items: center; justify-content: center; color: #999;">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Saias versáteis para compor looks diversos. Tecidos de qualidade com acabamento perfeito.</p>
+                <p><strong>Desconto:</strong> A partir de 5% OFF</p>
+                <p><strong>Preço inicial:</strong> R$ 99,90</p>
+                <p><strong>Preço promocional:</strong> A partir de R$ 94,90</p>
+                <p><strong>Modelos:</strong> Lápis, Plissada, Circular, Longa</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Shorts Oferta-->
+    <div class="modal" id="ModalShorts" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Shorts em Promoção</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="..." alt="Shorts" class="img-fluid" style="background-color: #f0f0f0; height: 300px; display: flex; align-items: center; justify-content: center; color: #999;">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Shorts confortáveis para o verão e uso cotidiano. Designs modernos que marcam presença.</p>
+                <p><strong>Desconto:</strong> Até 20% OFF</p>
+                <p><strong>Preço de:</strong> R$ 129,90</p>
+                <p><strong>Preço por:</strong> A partir de R$ 103,90</p>
+                <p><strong>Modelos:</strong> Alfaiataria, Jeans, Linho, Moletom</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Blusas e Camisas Oferta-->
+    <div class="modal" id="ModalBlusas" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-custom">
+          <div class="modal-header modal-header-custom">
+            <h5 class="modal-title">Blusas e Camisas em Oferta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="..." alt="Blusas e Camisas" class="img-fluid" style="background-color: #f0f0f0; height: 300px; display: flex; align-items: center; justify-content: center; color: #999;">
+              </div>
+              <div class="col-md-6">
+                <h6>Descrição do Produto</h6>
+                <p>Coleção de blusas e camisas para combinar com qualquer look. Tecidos respiráveis e confortáveis.</p>
+                <p><strong>Desconto:</strong> Até 15% OFF</p>
+                <p><strong>Preço de:</strong> R$ 89,90</p>
+                <p><strong>Preço por:</strong> A partir de R$ 76,40</p>
+                <p><strong>Estilos:</strong> Social, Casual, Festa, Básica</p>
+                <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer"><a href="html/produtos.html">
+              <button type="button" class="btn btn-primary btn-modal">Comprar Agora</button>
             </a>
           </div>
         </div>

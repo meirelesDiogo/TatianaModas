@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos - Tatiana Modas</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="navBar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Tatiana Modas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Fim Navbar-->
+
+  <div class="tudo">
+    <div class="apresentacao">
+      <h1 id="titulo">Catálogo Completo</h1>
+      <p>Confira todos os nossos produtos organizados por categoria!</p>
+      <br /><br />
+    </div>
+
+    <!-- VESTIDOS -->
+    <div class="categoria-section">
+      <div class="categoria-header">
+        <h2>Vestidos</h2>
+        <p>Elegância e conforto em cada peça</p>
+      </div>
+
+      <div class="container-cards">
+        <div class="card card-produto">
+          <div class="desconto-badge">-25%</div>
+          <img src="../imagens/vestido1.png" class="card-img-top" alt="Vestido 1">
+          <div class="card-body">
+            <h5 class="card-title">Vestido Social</h5>
+            <p class="card-text">Elegante e sofisticado</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 199,90</span>
+              <span class="preco-promocional">R$ 149,90</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalVestido">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-20%</div>
+          <img src="../imagens/vestido2.png" class="card-img-top" alt="Vestido 2">
+          <div class="card-body">
+            <h5 class="card-title">Vestido Casual</h5>
+            <p class="card-text">Perfeito para o dia a dia</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 149,90</span>
+              <span class="preco-promocional">R$ 119,90</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalVestido">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-25%</div>
+          <img src="../imagens/vestido3.png" class="card-img-top" alt="Vestido 3">
+          <div class="card-body">
+            <h5 class="card-title">Vestido de Praia</h5>
+            <p class="card-text">Leve e fresquinho</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 129,90</span>
+              <span class="preco-promocional">R$ 97,42</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalVestido">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-15%</div>
+          <img src="../imagens/vestido4.png" class="card-img-top" alt="Vestido 4">
+          <div class="card-body">
+            <h5 class="card-title">Vestido Festa</h5>
+            <p class="card-text">Brilhe na ocasião especial</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 249,90</span>
+              <span class="preco-promocional">R$ 212,41</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalVestido">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SAIAS -->
+    <div class="categoria-section">
+      <div class="categoria-header">
+        <h2>Saias</h2>
+        <p>Versatilidade e estilo em cada modelo</p>
+      </div>
+
+      <div class="container-cards">
+        <div class="card card-produto">
+          <div class="desconto-badge">-5%</div>
+          <img src="../imagens/saia1.png" class="card-img-top" alt="Saia 1">
+          <div class="card-body">
+            <h5 class="card-title">Saia Lápis</h5>
+            <p class="card-text">Clássica e elegante</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 99,90</span>
+              <span class="preco-promocional">R$ 94,90</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalSaia">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-10%</div>
+          <img src="../imagens/saia2.png" class="card-img-top" alt="Saia 2">
+          <div class="card-body">
+            <h5 class="card-title">Saia Plissada</h5>
+            <p class="card-text">Movimento e leveza</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 119,90</span>
+              <span class="preco-promocional">R$ 107,91</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalSaia">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-8%</div>
+          <img src="../imagens/saia3.png" class="card-img-top" alt="Saia 3">
+          <div class="card-body">
+            <h5 class="card-title">Saia Circular</h5>
+            <p class="card-text">Rodado e cheio de graça</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 109,90</span>
+              <span class="preco-promocional">R$ 101,10</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalSaia">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-5%</div>
+          <img src="../imagens/saia4.png" class="card-img-top" alt="Saia 4">
+          <div class="card-body">
+            <h5 class="card-title">Saia Longa</h5>
+            <p class="card-text">Sofisticada e charmosa</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 139,90</span>
+              <span class="preco-promocional">R$ 132,90</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalSaia">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SHORTS -->
+    <div class="categoria-section">
+      <div class="categoria-header">
+        <h2>Shorts</h2>
+        <p>Conforto e estilo para o verão</p>
+      </div>
+
+      <div class="container-cards">
+        <div class="card card-produto">
+          <div class="desconto-badge">-20%</div>
+          <img src="../imagens/short1.png" class="card-img-top" alt="Short 1">
+          <div class="card-body">
+            <h5 class="card-title">Short Alfaiataria</h5>
+            <p class="card-text">Que não marca o corpo</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 89,90</span>
+              <span class="preco-promocional">R$ 71,92</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalShorts">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-15%</div>
+          <img src="../imagens/short2.png" class="card-img-top" alt="Short 2">
+          <div class="card-body">
+            <h5 class="card-title">Short Jeans</h5>
+            <p class="card-text">Clássico e durável</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 109,90</span>
+              <span class="preco-promocional">R$ 93,41</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalShorts">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-20%</div>
+          <img src="../imagens/short3.png" class="card-img-top" alt="Short 3">
+          <div class="card-body">
+            <h5 class="card-title">Short Linho</h5>
+            <p class="card-text">Leve e fresco</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 119,90</span>
+              <span class="preco-promocional">R$ 95,92</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalShorts">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-10%</div>
+          <img src="../imagens/short4.png" class="card-img-top" alt="Short 4">
+          <div class="card-body">
+            <h5 class="card-title">Short Moletom</h5>
+            <p class="card-text">Confortável e macio</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 99,90</span>
+              <span class="preco-promocional">R$ 89,91</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalShorts">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLUSAS E CAMISAS -->
+    <div class="categoria-section">
+      <div class="categoria-header">
+        <h2>Blusas e Camisas</h2>
+        <p>Peças versáteis para qualquer ocasião</p>
+      </div>
+
+      <div class="container-cards">
+        <div class="card card-produto">
+          <div class="desconto-badge">-15%</div>
+          <img src="../imagens/blusa1.png" class="card-img-top" alt="Blusa 1">
+          <div class="card-body">
+            <h5 class="card-title">Blusa Social</h5>
+            <p class="card-text">Profissional e elegante</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 89,90</span>
+              <span class="preco-promocional">R$ 76,41</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBlusas">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-12%</div>
+          <img src="../imagens/blusa2.png" class="card-img-top" alt="Blusa 2">
+          <div class="card-body">
+            <h5 class="card-title">Blusa Casual</h5>
+            <p class="card-text">Leve e confortável</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 69,90</span>
+              <span class="preco-promocional">R$ 61,51</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBlusas">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-15%</div>
+          <img src="../imagens/camisa1.png" class="card-img-top" alt="Camisa 1">
+          <div class="card-body">
+            <h5 class="card-title">Camisa Branca</h5>
+            <p class="card-text">Peça essencial do guarda-roupa</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 79,90</span>
+              <span class="preco-promocional">R$ 67,91</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBlusas">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="card card-produto">
+          <div class="desconto-badge">-10%</div>
+          <img src="../imagens/camisa2.png" class="card-img-top" alt="Camisa 2">
+          <div class="card-body">
+            <h5 class="card-title">Camisa Estampada</h5>
+            <p class="card-text">Com padrão e personalidade</p>
+            <div class="preco-container">
+              <span class="preco-original">R$ 89,90</span>
+              <span class="preco-promocional">R$ 80,91</span>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalBlusas">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <footer>
+      <p>&copy Tatiana Modas. Todos os Direitos Reservados</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
